@@ -48,20 +48,23 @@ const CardHeading: React.FC<ExpandableSectionProps> = ({ isFarming, lpLabel, mul
   return (
     <Flex flexDirection="column" alignItems="flex-start" justifyContent="center">
       <FarmingTextWrapper>
-        <Text color="#DF4B4C" bold fontSize='14px'>
+        <Text color="#DF4B4C" bold fontSize="14px">
           {isFarming === true ? TranslateString(10008, 'Farming') : ''}
         </Text>
       </FarmingTextWrapper>
-      <Text fontWeight="bold" style={{ marginBottom: 4 }}>{lpLabel}</Text>
+      <Text fontWeight="bold" style={{ marginBottom: 4 }}>
+        {lpLabel}
+      </Text>
       <Flex justifyContent="center">
-        {depositFee === 0 ? (
+        {depositFee === 0 && (
           <NoFeeTagWrapper>
             <NoFeeTag />
           </NoFeeTagWrapper>
-        ) : null}
+        )}
         {/* {isCommunityFarm ? <CommunityTag /> : <CoreTag />} */}
         {/* <RiskTag risk={risk} /> */}
         <MultiplierTag>{multiplier}</MultiplierTag>
+        {depositFee !== 0 && <div style={{ width: 98 }} />}
       </Flex>
     </Flex>
   )

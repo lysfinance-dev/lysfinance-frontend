@@ -28,7 +28,7 @@ const BlzdStats = () => {
     <StyledBlzdStats>
       <CardBody>
         <Heading size="xl" mb="24px" style={{ fontSize: 24 }}>
-          {TranslateString(534, 'BLZD Stats')}
+          {TranslateString(534, 'xBLZD Stats')}
         </Heading>
         <Divider />
         <Row>
@@ -50,7 +50,7 @@ const BlzdStats = () => {
           </ColorPrimaryText>
         </Row>
         {/* <Row>
-          <Text fontSize="14px">{TranslateString(540, 'New BLZD/block')}</Text>
+          <Text fontSize="14px">{TranslateString(540, 'New xBLZD/block')}</Text>
           <Text bold fontSize="14px">
             {blzdPerBlock}
           </Text>

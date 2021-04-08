@@ -6,6 +6,7 @@ import { Flex, Text, Skeleton, Image } from '@blzd-dev/uikit-v2'
 import { Farm } from 'state/types'
 import { provider } from 'web3-core'
 import { useFarmFromPid, useFarmUser } from 'state/hooks'
+import useBlock from 'hooks/useBlock'
 import { getBalanceNumber } from 'utils/formatBalance'
 import useI18n from 'hooks/useI18n'
 import { ChevronDown, ChevronRight, ChevronUp } from 'react-feather'
@@ -151,6 +152,8 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
 
   const [showExpandableSection, setShowExpandableSection] = useState(false)
 
+  const currentBlock = useBlock()
+
   // const isCommunityFarm = communityFarms.includes(farm.tokenSymbol)
   // We assume the token name is coin pair + lp e.g. CAKE-BNB LP, LINK-BNB LP,
   // NAR-CAKE LP. The images should be cake-bnb.svg, link-bnb.svg, nar-cake.svg
@@ -172,9 +175,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
     return farm.lpTotalInQuoteToken
   }, [bnbPrice, cakePrice, farm.lpTotalInQuoteToken, farm.quoteTokenSymbol])
 
-  const totalValueFormated = totalValue
-    ? `$${numbro(totalValue).format('0,0.00a')}`
-    : '-'
+  const totalValueFormated = totalValue ? `$${numbro(totalValue).format('0,0.00a')}` : '-'
 
   const lpLabel = farm.lpSymbol
   const earnLabel = 'xBLZD'
@@ -196,6 +197,8 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
   const IconDown = showExpandableSection ? ChevronUp : ChevronDown
   const handleClick = () => setShowExpandableSection(!showExpandableSection)
 
+  const depositFee = currentBlock <= 6417590 ? 0 : farm.depositFeeBP 
+
   return (
     <FCard>
       <ImageWrapper>
@@ -214,13 +217,13 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
               isFarming={!stakedBalance.isZero()}
               lpLabel={lpLabel}
               multiplier={farm.multiplier}
-              depositFee={farm.depositFeeBP}
+              depositFee={depositFee}
               tokenSymbol={farm.tokenSymbol}
             />
             <Flex width="20%" />
             {removed && <FarmFinishedSash />}
             {!removed && (
-              <Flex width="100%" alignItems="center" justifyContent='flex-end'>
+              <Flex width="100%" alignItems="center" justifyContent="flex-end">
                 <Text bold style={{ display: 'flex', alignItems: 'center' }}>
                   {farm.apy ? (
                     <>
@@ -247,7 +250,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
                   <Text fontSize="12px">{TranslateString(10001, 'Deposit Fee')}:</Text>
                 </Flex>
                 <Flex justifyContent="space-between">
-                  <Text fontSize="12px">{farm.depositFeeBP / 100}%</Text>
+                  <Text fontSize="12px">{depositFee / 100}%</Text>
                 </Flex>
               </Flex>
               <Flex justifyContent="space-between">

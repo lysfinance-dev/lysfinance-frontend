@@ -75,7 +75,7 @@
     {
       "data": {
         "stringId": 304,
-        "text": "Total BLZD burned since launch"
+        "text": "Total xBLZD burned since launch"
       }
     },
     {
@@ -123,13 +123,13 @@
     {
       "data": {
         "stringId": 320,
-        "text": "Stake LP tokens to earn BLZD"
+        "text": "Stake LP tokens to earn xBLZD"
       }
     },
     {
       "data": {
         "stringId": 322,
-        "text": "Stake BLZD, get SYRUP."
+        "text": "Stake xBLZD, get SYRUP."
       }
     },
     {
@@ -153,7 +153,7 @@
     {
       "data": {
         "stringId": 334,
-        "text": "Every time you stake and unstake BLZD tokens, the contract will automatically harvest BLZD rewards for you!"
+        "text": "Every time you stake and unstake xBLZD tokens, the contract will automatically harvest xBLZD rewards for you!"
       }
     },
     {
@@ -219,7 +219,7 @@
     {
       "data": {
         "stringId": 358,
-        "text": "BLZD price"
+        "text": "xBLZD price"
       }
     },
     {
@@ -243,7 +243,7 @@
     {
       "data": {
         "stringId": 380,
-        "text": "1 BLZD = 1 SYRUP"
+        "text": "1 xBLZD = 1 SYRUP"
       }
     },
     {
@@ -291,7 +291,7 @@
     {
       "data": {
         "stringId": 400,
-        "text": "SYRUP holders proportionally split 25% of BLZD block emissions each day (10 BLZD per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 25% of xBLZD block emissions each day (10 xBLZD per block), Rewards are distributed each block."
       }
     },
     {
@@ -357,13 +357,13 @@
     {
       "data": {
         "stringId": 424,
-        "text": "%num% BLZD"
+        "text": "%num% xBLZD"
       }
     },
     {
       "data": {
         "stringId": 426,
-        "text": "Spend BLZD to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
+        "text": "Spend xBLZD to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
       }
     },
     {
@@ -441,19 +441,19 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% BLZD Available"
+        "text": "%num% xBLZD Available"
       }
     },
     {
       "data": {
         "stringId": 456,
-        "text": "Your amount must be a multiple of 10 BLZD"
+        "text": "Your amount must be a multiple of 10 xBLZD"
       }
     },
     {
       "data": {
         "stringId": 458,
-        "text": "1 Ticket = 10 BLZD"
+        "text": "1 Ticket = 10 xBLZD"
       }
     },
     {
@@ -501,7 +501,7 @@
     {
       "data": {
         "stringId": 478,
-        "text": "Ticket purchases are final. Your BLZD cannot be returned to you after buying tickets."
+        "text": "Ticket purchases are final. Your xBLZD cannot be returned to you after buying tickets."
       }
     },
     {
@@ -513,7 +513,7 @@
     {
       "data": {
         "stringId": 482,
-        "text": "BLZD prizes to be claimed"
+        "text": "xBLZD prizes to be claimed"
       }
     },
     {
@@ -549,13 +549,13 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve BLZD"
+        "text": "Approve xBLZD"
       }
     },
     {
       "data": {
         "stringId": 496,
-        "text": "SYRUP holders proportionally split 40% of BLZD block emissions each day (10 BLZD per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 40% of xBLZD block emissions each day (10 xBLZD per block), Rewards are distributed each block."
       }
     },
     {
@@ -573,19 +573,19 @@
     {
       "data": {
         "stringId": 504,
-        "text": "You\u2019ll pay for the new tokens using BLZD-BNB LP tokens, which means you need to stake equal amounts of BLZD and BNB in a liquidity pool to take part."
+        "text": "You\u2019ll pay for the new tokens using xBLZD-BNB LP tokens, which means you need to stake equal amounts of xBLZD and BNB in a liquidity pool to take part."
       }
     },
     {
       "data": {
         "stringId": 506,
-        "text": "Get BLZD-BNB LP >"
+        "text": "Get xBLZD-BNB LP >"
       }
     },
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB, BLIZZARD.MONEY burns the BLZD."
+        "text": "The project gets the BNB, BLIZZARD.MONEY burns the xBLZD."
       }
     },
     {
@@ -669,7 +669,7 @@
     {
       "data": {
         "stringId": 540,
-        "text": "New BLZD\/block"
+        "text": "New xBLZD\/block"
       }
     },
     {
@@ -681,19 +681,19 @@
     {
       "data": {
         "stringId": 544,
-        "text": "xBLZD to Harvest"
+        "text": "xxBLZD to Harvest"
       }
     },
     {
       "data": {
         "stringId": 546,
-        "text": "xBLZD in Wallet"
+        "text": "xxBLZD in Wallet"
       }
     },
     {
       "data": {
         "stringId": 548,
-        "text": "Collecting BLZD"
+        "text": "Collecting xBLZD"
       }
     },
     {
@@ -705,7 +705,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "BLZD to Collect"
+        "text": "xBLZD to Collect"
       }
     },
     {
@@ -771,7 +771,7 @@
     {
       "data": {
         "stringId": 580,
-        "text": "Stake xBLZD to earn new tokens. Rewards are calculated per block."
+        "text": "Stake xxBLZD to earn new tokens. Rewards are calculated per block."
       }
     },
     {
@@ -789,7 +789,7 @@
     {
       "data": {
         "stringId": 586,
-        "text": "BLZD to burn (USD)"
+        "text": "xBLZD to burn (USD)"
       }
     },
     {
@@ -801,7 +801,7 @@
     {
       "data": {
         "stringId": 590,
-        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest BLZD rewards for you!"
+        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest xBLZD rewards for you!"
       }
     },
     {
@@ -819,13 +819,13 @@
     {
       "data": {
         "stringId": 596,
-        "text": "Buy BLZD and BNB tokens"
+        "text": "Buy xBLZD and BNB tokens"
       }
     },
     {
       "data": {
         "stringId": 598,
-        "text": "Get BLZD-BNB LP tokens by adding BLZD and BNB liquidity"
+        "text": "Get xBLZD-BNB LP tokens by adding xBLZD and BNB liquidity"
       }
     },
     {
@@ -837,7 +837,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "While the sale is live, commit your BLZD-LP tokens to buy the IFO tokens"
+        "text": "While the sale is live, commit your xBLZD-LP tokens to buy the IFO tokens"
       }
     },
     {
@@ -873,7 +873,7 @@
     {
       "data": {
         "stringId": 614,
-        "text": "Trade in for BLZD, or keep for your collection!"
+        "text": "Trade in for xBLZD, or keep for your collection!"
       }
     },
     {
@@ -915,7 +915,7 @@
     {
       "data": {
         "stringId": 628,
-        "text": "When you trade in this NFT to receive BLZD, you will lose access to it forever!"
+        "text": "When you trade in this NFT to receive xBLZD, you will lose access to it forever!"
       }
     },
     {
@@ -945,7 +945,7 @@
     {
       "data": {
         "stringId": 638,
-        "text": "Winners can trade in their NFTs for a BLZD value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
+        "text": "Winners can trade in their NFTs for a xBLZD value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
       }
     },
     {
@@ -987,7 +987,7 @@
     {
       "data": {
         "stringId": 654,
-        "text": "Trade in for BLZD"
+        "text": "Trade in for xBLZD"
       }
     },
     {
@@ -1113,7 +1113,7 @@
     {
       "data": {
         "stringId": 696,
-        "text": "Stake LP tokens to earn BLZD"
+        "text": "Stake LP tokens to earn xBLZD"
       }
     },
     {
@@ -1149,13 +1149,13 @@
     {
       "data": {
         "stringId": 708,
-        "text": "The BLZD Lottery"
+        "text": "The xBLZD Lottery"
       }
     },
     {
       "data": {
         "stringId": 710,
-        "text": "Buy tickets with BLZD"
+        "text": "Buy tickets with xBLZD"
       }
     },
     {
@@ -1209,7 +1209,7 @@
     {
       "data": {
         "stringId": 10000,
-        "text": "Deposit Fee will be used to buyback BLZD"
+        "text": "Deposit Fee will be used to buyback xBLZD"
       }
     },
     {
@@ -1221,7 +1221,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "Stake tokens to earn BLZD"
+        "text": "Stake tokens to earn xBLZD"
       }
     },
     {

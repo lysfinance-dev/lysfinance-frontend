@@ -127,7 +127,7 @@ const fetchFarms = async () => {
         tokenPriceVsQuote: tokenPriceVsQuote.toJSON(),
         poolWeight: poolWeight.toNumber(),
         multiplier: `${allocPoint.div(100).toString()}X`,
-        depositFeeBP: 0,
+        depositFeeBP: info.depositFeeBP,
         blzdPerBlock: new BigNumber(blzdPerBlock).toNumber(),
       }
     }),
