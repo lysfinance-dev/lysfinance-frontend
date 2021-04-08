@@ -1,4 +1,4 @@
-# ❄️ LysFinance Frontend
+# ⚜️ LysFinance Frontend
 
 This project contains the main features of the LyfSinance application.
 
