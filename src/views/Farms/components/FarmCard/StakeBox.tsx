@@ -36,8 +36,8 @@ const StakeBox: React.FC<StakeBoxProps> = ({ tokenBalance, tokenName, onConfirm 
   )
 
   const onMaxLPClick = useCallback(() => {
-    setVal(displayBalance)
-  }, [setVal, displayBalance])
+    setVal(rawTokenBalance.toString())
+  }, [setVal, rawTokenBalance])
 
   const clearVal = useCallback(() => {
     setVal('')
@@ -53,13 +53,13 @@ const StakeBox: React.FC<StakeBoxProps> = ({ tokenBalance, tokenName, onConfirm 
           fontSize="14px"
           mb="14px"
           onClick={onMaxLPClick}
-          color="#37383b"
+          color="#57585c"
           style={{ display: 'flex', justifyItems: 'flex-start', cursor: 'pointer' }}
         >
-          <Text fontSize="14px" color="#2F70FF" fontWeight="bold" style={{ paddingRight: 5 }}>
+          {tokenName} Available: {' '}
+          <Text fontSize="14px" color="#2F70FF" fontWeight="bold" style={{ paddingLeft: 5 }}>
             {displayBalance}
-          </Text>{' '}
-          {tokenName} Available
+          </Text>
         </Text>
         <Flex alignItems="center" justifyContent="space-between">
           <Flex alignItems="center" justifyContent="space-between">

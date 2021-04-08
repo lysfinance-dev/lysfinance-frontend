@@ -36,8 +36,8 @@ const UnstakeBox: React.FC<UnstakeBoxProps> = ({ stakedBalance, tokenName, onCon
   )
 
   const onMaxLPClick = useCallback(() => {
-    setVal(displayBalance)
-  }, [setVal, displayBalance])
+    setVal(rawStakedBalance.toString())
+  }, [setVal, rawStakedBalance])
 
   const clearVal = useCallback(() => {
     setVal('')
@@ -53,7 +53,7 @@ const UnstakeBox: React.FC<UnstakeBoxProps> = ({ stakedBalance, tokenName, onCon
           fontSize="14px"
           mb="14px"
           onClick={onMaxLPClick}
-          color="#37383b"
+          color="#57585c"
           style={{ display: 'flex', flexDirection: 'row', cursor: 'pointer' }}
         >
           Total {tokenName} Stake :

@@ -17,7 +17,7 @@ const Home: React.FC = () => {
             Become a Yeti !!
           </Heading>
           <DetailsBecomeAYeti>
-            Blizzard.money is home to the most fabulous Yeti you’ll evver meet.(Yes, Yeti is the phural for Yeti) Here,
+            Blizzard.money is home to the most fabulous Yeti you’ll ever meet.(Yes, Yeti is the plural for Yeti) Here,
             Yeti earn cold, hard cash token on the best Defi platform this side of the Himalayas. And its only available
             on the Binance Smart Chain.
           </DetailsBecomeAYeti>
