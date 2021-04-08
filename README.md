@@ -1,5 +1,5 @@
 # ⚜️ LysFinance Frontend
 
-This project contains the main features of the LyfSinance application.
+This project contains the main features of the LysFinance application.
 
 If you want to contribute, please refer to the [contributing guidelines](./CONTRIBUTING.md) of this project.
