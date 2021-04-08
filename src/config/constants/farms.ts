@@ -151,7 +151,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
     strat: '0xba415E5D6413431778B3985907B167731829237E',
     pidStrat: 4,
-    pancakeMasterChef: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
+    pancakeMasterChef: '0xA625AB01B08ce023B2a342Dbb12a16f2C8489A8F',
     isPancake: true,
   },
   {
@@ -170,7 +170,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
     strat: '0x68cA938A595604f7fcBD355C0BeD508d702FbC08',
     pidStrat: 6,
-    pancakeMasterChef: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
+    pancakeMasterChef: '0x0895196562C7868C5Be92459FaE7f877ED450452',
     isPancake: true,
   },
   {
@@ -189,7 +189,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
     strat: '0x19254A7913bB3daabE4D33c66D488663ebDAfC44',
     pidStrat: 1,
-    pancakeMasterChef: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
+    pancakeMasterChef: '0xe70E9185F5ea7Ba3C5d63705784D8563017f2E57',
     isPancake: true,
   },
   // caves
