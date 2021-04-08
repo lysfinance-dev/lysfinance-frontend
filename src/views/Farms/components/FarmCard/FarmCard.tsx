@@ -224,7 +224,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
                 <Text bold style={{ display: 'flex', alignItems: 'center' }}>
                   {farm.apy ? (
                     <>
-                      {numbro(farmAPY).format('0,0.00a')}%
+                      {farmAPY}%
                       <ApyButton
                         lpLabel={lpLabel}
                         quoteTokenAdresses={quoteTokenAdresses}
