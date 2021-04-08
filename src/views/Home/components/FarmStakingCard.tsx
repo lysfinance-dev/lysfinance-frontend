@@ -41,7 +41,7 @@ const FarmedStakingCard = () => {
           params: {
             type: 'ERC20',
             options: {
-              address: '0x57067A6BD75c0E95a6A5f158455926e43E79BeB0', // TODO: change address to xBLZD
+              address: '0x9a946c3Cb16c08334b69aE249690C236Ebd5583E', // TODO: change address to xBLZD
               symbol: 'BLZD',
               decimals: '18',
               image:

@@ -26,7 +26,7 @@ const Menu = (props) => {
       cakePriceUsd={blzdPriceUsd.toNumber()}
       links={config}
       addictionals={addictionals}
-      priceLink="https://pancakeswap.info/token/0x57067A6BD75c0E95a6A5f158455926e43E79BeB0"
+      priceLink="https://pancakeswap.info/token/0x9a946c3Cb16c08334b69aE249690C236Ebd5583E"
       {...props}
     />
   )
