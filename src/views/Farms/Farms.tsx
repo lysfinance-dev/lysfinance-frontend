@@ -133,7 +133,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           <ul>
             <li style={{ fontSize: 18, color: '#fff'}}>
             {tokenMode
-          ? TranslateString(10002, 'Stake tokens to earn xBLZD')
+          ? TranslateString(10002, 'Stake tokens to earn BLZD')
           : TranslateString(320, 'Stake LP tokens to earn xBLZD')}            </li>
           </ul>
         </div>

@@ -86,7 +86,7 @@ const FarmedStakingCard = () => {
           </Button>
         </RowBetween>
         <Block>
-          <Label>{TranslateString(546, 'xBLZD in Wallet')}</Label>
+          <Label>xBLZD in Wallet</Label>
         </Block>
         <Divider />
         <RowBetween>
@@ -101,7 +101,7 @@ const FarmedStakingCard = () => {
           </Wrapper>
         </RowBetween>
         <RowBetween style={{ marginTop: -14 }}>
-          <Label>{TranslateString(544, 'xBLZD to Harvest')}</Label>
+          <Label>xBLZD to Harvest</Label>
           {account ? (
             <Button
               id="harvest-all"
