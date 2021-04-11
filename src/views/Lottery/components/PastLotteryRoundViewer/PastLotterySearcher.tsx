@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import { Text, Input, Button } from '@blzd-dev/uikit-v2'
+import { Text, Input, Button } from '@lysfinance-dev/uikit'
 import useI18n from 'hooks/useI18n'
 
 interface PastLotterySearcherProps {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Modal } from '@blzd-dev/uikit-v2'
+import { Button, Modal } from '@lysfinance-dev/uikit'
 import ModalActions from 'components/ModalActions'
 import styled from 'styled-components'
 import useI18n from 'hooks/useI18n'

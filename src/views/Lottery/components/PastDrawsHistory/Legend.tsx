@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text } from '@blzd-dev/uikit-v2'
+import { Text } from '@lysfinance-dev/uikit'
 import useI18n from 'hooks/useI18n'
 
 const Wrapper = styled.div`

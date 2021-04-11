@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import BigNumber from 'bignumber.js'
-import { Text, Flex } from '@blzd-dev/uikit-v2'
+import { Text, Flex } from '@lysfinance-dev/uikit'
 import HarvestAction from './HarvestAction'
 
 interface HarvestBoxProps {

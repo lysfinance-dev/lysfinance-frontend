@@ -2,4 +2,5 @@
 
 This project contains the main features of the LysFinance application.
 
-If you want to contribute, please refer to the [contributing guidelines](./CONTRIBUTING.md) of this project.
+Latest deploy status : [![Netlify Status](https://api.netlify.com/api/v1/badges/e8b5b2e0-9412-4833-aeb9-bcbd3247d9be/deploy-status)](https://lys.finance/)
+

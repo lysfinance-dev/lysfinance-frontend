@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Button, Heading, Text, LogoIcon } from '@blzd-dev/uikit-v2'
+import { Button, Heading, Text, LogoIcon } from '@lysfinance-dev/uikit'
 import Page from 'components/layout/Page'
 import useI18n from 'hooks/useI18n'
 

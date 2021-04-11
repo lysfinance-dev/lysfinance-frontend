@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from 'react'
 import styled from 'styled-components'
 import BigNumber from 'bignumber.js'
-import { Text, Button, Flex } from '@blzd-dev/uikit-v2'
+import { Text, Button, Flex } from '@lysfinance-dev/uikit'
 import useI18n from 'hooks/useI18n'
 import { getBalanceNumber } from 'utils/formatBalance'
 import Input from 'components/Input'

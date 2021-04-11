@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text } from '@blzd-dev/uikit-v2'
+import { Text } from '@lysfinance-dev/uikit'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import BigNumber from 'bignumber.js'
 import useI18n from 'hooks/useI18n'

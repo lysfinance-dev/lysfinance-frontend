@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading, Text, Flex } from '@blzd-dev/uikit-v2'
+import { Heading, Text, Flex } from '@lysfinance-dev/uikit'
 
 interface IfoCardHeaderProps {
   ifoId: string

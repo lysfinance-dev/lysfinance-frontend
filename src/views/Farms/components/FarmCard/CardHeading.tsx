@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text, Tag, Flex } from '@blzd-dev/uikit-v2'
+import { Text, Tag, Flex } from '@lysfinance-dev/uikit'
 import { NoFeeTag } from 'components/Tags'
 import useI18n from 'hooks/useI18n'
 

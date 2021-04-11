@@ -4,7 +4,7 @@ import { allLanguages } from 'config/localisation/languageCodes'
 import { LanguageContext } from 'contexts/Localisation/languageContext'
 import useTheme from 'hooks/useTheme'
 import { usePriceBlzdBusd } from 'state/hooks'
-import { Menu as UikitMenu } from '@blzd-dev/uikit-v2'
+import { Menu as UikitMenu } from '@lysfinance-dev/uikit'
 import config, { addictionals } from './config'
 
 const Menu = (props) => {

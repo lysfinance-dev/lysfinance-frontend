@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card } from '@blzd-dev/uikit-v2'
+import { Card } from '@lysfinance-dev/uikit'
 import { DataResponse } from 'utils/getLotteryRoundData'
 import PastRoundCardError from './PastRoundCardError'
 import PastRoundCardDetails from './PastRoundCardDetails'

@@ -1,7 +1,7 @@
 // @ts-nocheck
 import React from 'react'
 import styled from 'styled-components'
-import { Button, Heading, Text as UIKitText, ArrowForwardIcon } from '@blzd-dev/uikit-v2'
+import { Button, Heading, Text as UIKitText, ArrowForwardIcon } from '@lysfinance-dev/uikit'
 import useI18n from 'hooks/useI18n'
 import Container from 'components/layout/Container'
 

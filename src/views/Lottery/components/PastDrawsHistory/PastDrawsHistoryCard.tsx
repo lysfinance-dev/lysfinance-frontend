@@ -1,5 +1,5 @@
 import React from 'react'
-import { Heading, Card, CardBody } from '@blzd-dev/uikit-v2'
+import { Heading, Card, CardBody } from '@lysfinance-dev/uikit'
 import useI18n from 'hooks/useI18n'
 import HistoryChart from './HistoryChart'
 import Legend from './Legend'

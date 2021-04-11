@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading, Text, BaseLayout } from '@blzd-dev/uikit-v2'
+import { Heading, Text, BaseLayout } from '@lysfinance-dev/uikit'
 import Page from 'components/layout/Page'
 import FarmStakingCard from './components/FarmStakingCard'
 // import LotteryCard from './components/LotteryCard'
