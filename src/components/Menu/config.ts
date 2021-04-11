@@ -12,35 +12,48 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x9a946c3Cb16c08334b69aE249690C236Ebd5583E',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x57067A6BD75c0E95a6A5f158455926e43E79BeB0',
         external: true,
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.pancakeswap.finance/#/add/BNB/0x9a946c3Cb16c08334b69aE249690C236Ebd5583E',
+        href:
+          'https://exchange.pancakeswap.finance/#/add/BNB/0x57067A6BD75c0E95a6A5f158455926e43E79BeB0',
         external: true,
       },
     ],
   },
   {
-    label: 'Farm+',
+    label: 'Farms',
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
-    label: 'Caves',
-    icon: 'CaveIcon',
-    href: '/caves',
-  },
-  {
-    label: 'Blizzard',
+    label: 'Lys Garden',
     icon: 'PoolIcon',
     href: '/pools',
+    spin: true,
   },
   {
-    label: 'Legacy Site',
-    icon: 'LegacyIcon',
-    href: 'https://legacy.blizzard.money',
+    label: 'NFT Market',
+    icon: 'NftIcon',
+    href: '/nft',
+  },
+  {
+    label: 'Roadmap',
+    icon: 'RoadmapIcon',
+    href: '/roadmap',
+  },
+  {
+    label: 'Github',
+    icon: 'GithubIcon',
+    href: 'https://github.com/lysfinance-dev',
+    external: true,
+  },
+  {
+    label: 'Medium',
+    icon: 'MediumIcon',
+    href: 'https://lysfinance.medium.com',
     external: true,
   },
 ]
