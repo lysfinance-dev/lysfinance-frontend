@@ -1844,10 +1844,10 @@
   dependencies:
     "@json-rpc-tools/types" "^1.6.1"
 
-"@lysfinance-dev/uikit@^0.15.0":
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/@lysfinance-dev/uikit/-/uikit-0.15.0.tgz#49f000209231a2c220415e31bcd3f480a09a9f0b"
-  integrity sha512-GtUKpzP+vtSJB3ho/+1s3qO6B0Gbhtp6GbazFEwDrIs4iYIySe7Pfesdf4/Tz3IkYbdERCybjY3Ruq/e56a4DQ==
+"@lysfinance-dev/uikit@^0.17.1":
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/@lysfinance-dev/uikit/-/uikit-0.17.1.tgz#7d4665f54d307f5e6389ab46eecb8a2fad95d5ca"
+  integrity sha512-Gf+1q7x/QIk3tLHxQ8bzKHqc8tiyqqroncmRB5abdoXpSfwTFa0rB/m4L9BH1dwoY3JcZtqGQN4BrttkPjFIPw==
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
