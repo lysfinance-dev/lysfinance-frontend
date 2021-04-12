@@ -7,25 +7,25 @@ import { useTotalSupply, useBurnedBalance } from 'hooks/useTokenBalance'
 import useI18n from 'hooks/useI18n'
 import { getCakeAddress } from 'utils/addressHelpers'
 import CardValue from './CardValue'
-import { usePriceBlzdBusd } from '../../../state/hooks'
+import { usePriceLysBusd } from '../../../state/hooks'
 
-const BlzdStats = () => {
+const LysStats = () => {
   const TranslateString = useI18n()
   const totalSupply = useTotalSupply()
   const burnedBalance = useBurnedBalance(getCakeAddress())
   // const farms = useFarms()
-  const blzdPrice = usePriceBlzdBusd()
+  const lysPrice = usePriceLysBusd()
   const circSupply = totalSupply ? totalSupply.minus(burnedBalance) : new BigNumber(0)
-  const blzdSupply = getBalanceNumber(circSupply)
-  const marketCap = blzdPrice.times(circSupply)
+  const lysSupply = getBalanceNumber(circSupply)
+  const marketCap = lysPrice.times(circSupply)
 
-  // let blzdPerBlock = 0
-  // if (farms && farms[0] && farms[0].blzdPerBlock) {
-  //   blzdPerBlock = new BigNumber(farms[0].blzdPerBlock).div(new BigNumber(10).pow(18)).toNumber()
+  // let lysPerBlock = 0
+  // if (farms && farms[0] && farms[0].lysPerBlock) {
+  //   lysPerBlock = new BigNumber(farms[0].lysPerBlock).div(new BigNumber(10).pow(18)).toNumber()
   // }
 
   return (
-    <StyledBlzdStats>
+    <StyledLysStats>
       <CardBody>
         <Heading size="xl" mb="24px" style={{ fontSize: 24 }}>
           {TranslateString(534, 'xBLZD Stats')}
@@ -34,7 +34,7 @@ const BlzdStats = () => {
         <Row>
           <Text fontSize="18px">{TranslateString(536, 'Total Token Supply')}</Text>
           <ColorPrimaryText>
-            {blzdSupply && <CardValue fontSize="36px" value={blzdSupply} decimals={0} />}
+            {lysSupply && <CardValue fontSize="36px" value={lysSupply} decimals={0} />}
           </ColorPrimaryText>
         </Row>
         <Row>
@@ -52,15 +52,15 @@ const BlzdStats = () => {
         {/* <Row>
           <Text fontSize="14px">{TranslateString(540, 'New xBLZD/block')}</Text>
           <Text bold fontSize="14px">
-            {blzdPerBlock}
+            {lysPerBlock}
           </Text>
         </Row> */}
       </CardBody>
-    </StyledBlzdStats>
+    </StyledLysStats>
   )
 }
 
-const StyledBlzdStats = styled(Card)`
+const StyledLysStats = styled(Card)`
   margin-left: auto;
   margin-right: auto;
   padding: 8px;
@@ -89,4 +89,4 @@ const Divider = styled.div`
   margin: 24px 0 24px 0;
 `
 
-export default BlzdStats
+export default LysStats

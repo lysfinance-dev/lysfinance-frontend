@@ -4,7 +4,7 @@ export default {
     97: '',
   },
   xblzd: {
-    56: '0x9a946c3Cb16c08334b69aE249690C236Ebd5583E', // TODO: change to xBLZD address
+    56: '0x9a946c3Cb16c08334b69aE249690C236Ebd5583E',
     97: '',
   },
   masterChef: {

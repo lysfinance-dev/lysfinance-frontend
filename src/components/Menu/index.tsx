@@ -3,15 +3,15 @@ import { useWallet } from '@binance-chain/bsc-use-wallet'
 import { allLanguages } from 'config/localisation/languageCodes'
 import { LanguageContext } from 'contexts/Localisation/languageContext'
 import useTheme from 'hooks/useTheme'
-import { usePriceBlzdBusd } from 'state/hooks'
+import { usePriceLysBusd } from 'state/hooks'
 import { Menu as UikitMenu } from '@lysfinance-dev/uikit'
-import config, { addictionals } from './config'
+import config from './config'
 
 const Menu = (props) => {
   const { account, connect, reset } = useWallet()
   const { selectedLanguage, setSelectedLanguage } = useContext(LanguageContext)
   const { isDark, toggleTheme } = useTheme()
-  const blzdPriceUsd = usePriceBlzdBusd()
+  const lysPriceUsd = usePriceLysBusd()
 
   return (
     <UikitMenu
@@ -23,9 +23,8 @@ const Menu = (props) => {
       currentLang={selectedLanguage && selectedLanguage.code}
       langs={allLanguages}
       setLang={setSelectedLanguage}
-      cakePriceUsd={blzdPriceUsd.toNumber()}
+      cakePriceUsd={lysPriceUsd.toNumber()}
       links={config}
-      addictionals={addictionals}
       priceLink="https://pancakeswap.info/token/0x9a946c3Cb16c08334b69aE249690C236Ebd5583E"
       {...props}
     />

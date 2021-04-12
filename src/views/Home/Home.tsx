@@ -3,10 +3,8 @@ import styled from 'styled-components'
 import { Heading, Text, BaseLayout } from '@lysfinance-dev/uikit'
 import Page from 'components/layout/Page'
 import FarmStakingCard from './components/FarmStakingCard'
-// import LotteryCard from './components/LotteryCard'
-import BlzdStats from './components/BlzdStats'
+import BlzdStats from './components/LysStats'
 import TotalValueLockedCard from './components/TotalValueLockedCard'
-// import TwitterCard from './components/TwitterCard'
 
 const Home: React.FC = () => {
   return (
@@ -17,15 +15,18 @@ const Home: React.FC = () => {
             Welcome to the noblest DeFi experience.
           </Heading>
           <DetailsBecomeAYeti>
-            Blizzard.money is home to the most fabulous Yeti you’ll ever meet.(Yes, Yeti is the plural for Yeti) Here,
-            Yeti earn cold, hard cash token on the best Defi platform this side of the Himalayas. And its only available
-            on the Binance Smart Chain.
+            Consider this place as the next DeFi. And this place exist, because you searched for it.
+            The symbol of the Lys is used in reference to the nobility of the high yield offered.
+            We want to provide fair returns in line with the values of decentralization. 
+            Where the human act is once again put at the center of this ecosystem and once again brought to light
+            <br/>
+            <p><em>&quot;La France fut faite à coups d&apos;épée. La fleur de lys, symbole d&apos;unité nationale, n&apos;est que l&apos;image d&apos;un javelot à trois lances.&quot;</em></p>
           </DetailsBecomeAYeti>
           <JoinUsButton href="https://t.me/LysFinance" target="_blank" rel="noreferrer">
             JOIN THE GROUP
           </JoinUsButton>
         </Hero>
-        <HeroImage src="/images/blzd/3c.png" />
+        <HeroImage src="https://raw.githubusercontent.com/lysfinance-dev/lysfinance-assets/main/lys/lys_background.jpg" />
       </StakedWrapper>
 
       <div>
@@ -35,7 +36,6 @@ const Home: React.FC = () => {
         </Cards>
       </div>
       <TotalValueLockedCard />
-      {/* <TwitterCard/> */}
     </Page>
   )
 }
@@ -52,8 +52,8 @@ const Hero = styled.div`
   margin-bottom: 32px;
   margin-top: 32px;
   padding: 32px;
-  background: rgb(32, 122, 224);
-  background: linear-gradient(180deg, rgba(32, 122, 224, 1) 0%, rgba(14, 69, 189, 1) 100%);
+  background: #f6b93b;
+  background: linear-gradient(180deg, #f6b93b 0%, #b88928 100%);
   border-radius: 8px;
 
   ${({ theme }) => theme.mediaQueries.lg} {
@@ -62,10 +62,11 @@ const Hero = styled.div`
 `
 
 const HeroImage = styled.img`
-  width: 37%;
+  width: 50%;
   position: absolute;
   right: 0;
-  bottom: -10%;
+  top: 0;
+  mix-blend-mode: screen;
 `
 
 const JoinUsButton = styled.a`
@@ -86,7 +87,7 @@ const DetailsBecomeAYeti = styled(Text)`
   fontsize: 16px;
   color: ${({ theme }) => theme.colors.text};
   ${({ theme }) => theme.mediaQueries.sm} {
-    width: 63%;
+    width: 80%;
   }
 `
 

@@ -11,15 +11,15 @@ const Wrapper = styled(Page)`
 const LogoIcon = styled.div`
   transition: transform 0.3s ease;
   margin-bottom: 24px;
-  animation: pulse 1.25s ease-in-out infinite;
+  animation: pulse 0.85s ease-in-out infinite;
   @keyframes pulse {
     0% {
       -webkit-transform: scaleX(1);
       transform: scaleX(1);
     }
     50% {
-      -webkit-transform: scale3d(1.05, 1.05, 1.05);
-      transform: scale3d(1.05, 1.05, 1.05);
+      -webkit-transform: scale3d(1.15, 1.15, 1.15);
+      transform: scale3d(1.15, 1.15, 1.15);
     }
     to {
       -webkit-transform: scaleX(1);
@@ -33,8 +33,8 @@ const PageLoader: React.FC = () => {
     <Wrapper>
       <LogoIcon>
         <img
-          style={{ height: 86 }}
-          src="https://raw.githubusercontent.com/blzd-dev/blzd-frontend/master/public/images/blzd/logo.png"
+          style={{ height: 128 }}
+          src="https://raw.githubusercontent.com/lysfinance-dev/lysfinance-assets/main/lys/icon/lys_logoRound_md.png"
           alt="logo"
         />
       </LogoIcon>
