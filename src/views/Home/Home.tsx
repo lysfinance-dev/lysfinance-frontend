@@ -14,15 +14,15 @@ const Home: React.FC = () => {
       <StakedWrapper>
         <Hero>
           <Heading as="h1" size="xl" mb="24px" color="#fff">
-            Become a Yeti !!
+            Welcome to the noblest DeFi experience.
           </Heading>
           <DetailsBecomeAYeti>
             Blizzard.money is home to the most fabulous Yeti you’ll ever meet.(Yes, Yeti is the plural for Yeti) Here,
             Yeti earn cold, hard cash token on the best Defi platform this side of the Himalayas. And its only available
             on the Binance Smart Chain.
           </DetailsBecomeAYeti>
-          <JoinUsButton href="https://t.me/BlizzardMoney" target="_blank" rel="noreferrer">
-            JOIN US
+          <JoinUsButton href="https://t.me/LysFinance" target="_blank" rel="noreferrer">
+            JOIN THE GROUP
           </JoinUsButton>
         </Hero>
         <HeroImage src="/images/blzd/3c.png" />
